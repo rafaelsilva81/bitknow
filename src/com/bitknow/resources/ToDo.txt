@@ -1,0 +1,57 @@
+Coisas necessarias a se fazer - BITKNOW 
+
+1. Adicionar botao de minimizar ao menu de criptomoedas (OK 15/06)
+2. Refatorar nomes das variaveis (OK 15/06)
+3. Criar slideshow e Adicionar Imagens
+    3.1 Criação de imagens redimensionáveis
+            SE NÃO FOR FEITO ATÉ DIA 22/06 -> Fazer as imagens já dimensionadas.
+    3.2 Adição das imagens
+    3.3 Criação do Slideshow
+            SE NÃO FOR FEITO ATÉ DIA 23/06 -> Apenas adicionar informações.
+4. Criar links para obtencaoo de mais informacoes
+	4.1 Classe HyperLink (OK 15/06)
+        4.2 Adicionar Informações
+5. Adicionar novamente as imagens de fundo
+        5.1 Imagem Criada (OK 15/06)
+        5.2 Imagens adicionadas
+6. Criar as telas das outras criptomoedas (-----MUITO DEMORADO-------)
+    6.OBS* : Iniciar a criação das outras telas até, no máximo , dia 24/06
+    6.1 : Tela Bitcoin (Em progresso)
+    6.2 : Tela Litecoin
+    6.3 : Tela Monero
+    6.4 : Tela DogeCoin
+    6.5 : Tela Dash
+    6.6 : Tela BitcoinCash
+    6.7 : Tela Ethereum
+        6.Extra.1 : Tela EOS
+        6.Extra.1 : Tela Ethereum Classic
+
+DATA DE ENTREGA : 26/06
+---------------------------------------------------------------------------
+PROVAS - 18,19,20,21 E 25/06
+DIAS LIVRES - 16,17,22,23, E 24/06 ALÉM DO DIA 26 ATÉ AS 14:40
+
+ESTUDAR PARA AS PROVAS - 16/06 E 17/06 ALÉM DOS DIAS DAS PROVAS (18 A 21 E DEPOIS 25/06)
+NÃO DA TEMPO, FUDEU GOSTOSO
+
+**OBS¹ = PROVA DE CARLINHOS DIA 25/06 TAMBÉM
+
+----------------------------------------------------------------------------
+
+DIAS PARA MADRUGAR E VIRAR A NOITE FAZENDO PROJETO
+    23/06
+    25/06
+
+public void cu(){
+String s = jtextField.getText();
+char a[] = s.toCharArray();
+for (int i = 0, i < a.getLenght(), i++) {
+    try {
+        Int.parseInt(a[i]);
+    } catch (NumberFormatException e) {
+        JOPtionPane.showMessageDialog(null,"Digite apenas números);
+        return
+}
+}
+// Faz o que tu quer fazer aqui, ele só vai chegar aqui se ele não pegar em nenhum try
+}
